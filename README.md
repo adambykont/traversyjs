@@ -1,2 +1,2 @@
 # traversymadia
-# Java Script
+## Java Script

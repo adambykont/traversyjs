@@ -7,29 +7,15 @@
     <script src="scripts/main.js"></script>
 </head>
 <body>
+
 <div class="header">
     <h1>Learning JavaScript</h1>
-    <p>With Brad Traversy</p>
-    <p id="currenttime"></p>
-</div>
-
-<div class="container">
-    <button onclick="doClick()">Show date</button>
-    <button onclick="b2(this)">Click me too</button>
 </div>
 
 
 <script>
-    function doClick() {
-        let e = document.querySelector("h1");
-        e.innerHTML = "Current Time:";
-        let ctime = document.getElementById("currenttime");
-        ctime.innerHTML = new Date();
-    }
 
-    function b2(e) {
-        e.innerHTML = "You clicked on me";
-    }
 </script>
+
 </body>
 </html>
